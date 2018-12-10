@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.example.evan.screentest.activity_about">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FFFFFF"
+        android:gravity="left"
+        android:paddingLeft="30dp"
+        android:paddingTop="14dp"
+        android:text="About"
+        android:textColor="@color/blue"
+        android:textSize="32sp"
+        app:fontFamily="@font/gilbold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/gilreg"
+        android:text="Top Pixel is a simple app to check for dead pixels and the contrast levels of Android phones. Top Pixel will always remain ad FREE. It is currently in development, expect more frequent updates in the coming months.
+
+For further questions, comments or suggestions please comment in the PlayStore.
+
+-wagsDev"
+        android:textColor="@color/gray"
+        android:textSize="16sp" />
+
+</LinearLayout>
